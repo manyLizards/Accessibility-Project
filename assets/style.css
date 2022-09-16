@@ -22,14 +22,16 @@ p {
 
 /*Header*/
 header {
-    padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
 }
 
 header h1 {
-    display: inline-block;
     font-size: 48px;
 }
 
@@ -37,33 +39,36 @@ header h1 .seo {
     color: #d9dcd6;
 }
 
-header {
-    padding-top: 15px;
-    margin-right: 20px;
+nav {
     float: right;
+    font-size: 15px;
+    align-items: center;
+    padding-top: 20px;
+    padding-left:30px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
 }
-
 header ul {
     list-style-type: none;
 }
 
 header ul li {
     display: inline-block;
-    margin-left: 25px;
+    margin-left: 30px;
 }
 
 /*that one image that's too big*/
 .hero {
-    height: 800px;
+    height: 675px;
     width: 100%;
-    margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
-    background-size: cover;
-    background-position: center;
 }
 
+.hero img {
+    height: 650px;
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 /*everything in main*/
 .content {
     width: 75%;
@@ -91,14 +96,18 @@ header ul li {
     margin-right: 25px;
 }
 
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
+#search-engine-optimization h2 {
+    padding-bottom: 15px;
+    font-size: 30px;
+}
+
+#search-engine-optimization p {
+    font-size: 15px;
 }
 
 /*online reputation management*/
 
-.online-reputation-management {
+#online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -107,7 +116,7 @@ header ul li {
     color: #ffffff;
 }
 
-.online-reputation-management img {
+#online-reputation-management img {
     max-height: 200px;
 }
 
@@ -116,9 +125,13 @@ header ul li {
     margin-left: 25px;
 }
 
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
+#online-reputation-management h2 {
+    margin-bottom: 15px;
+    font-size: 30px;
+}
+
+#online-reputation-management p {
+    font-size: 15px;
 }
 
 /*social media marketing*/
@@ -137,8 +150,12 @@ header ul li {
 }
 
 .social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
+    margin-bottom: 15px;
+    font-size: 30px;
+}
+
+.social-media-marketing p {
+    font-size: 15px;
 }
 
 /*new section*/
@@ -153,6 +170,8 @@ header ul li {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
+
+/*Lead Generation*/
 
 .benefit-lead {
     margin-bottom: 32px;
@@ -170,6 +189,8 @@ header ul li {
     max-width: 150px;
 }
 
+/*Brand Awareness*/
+
 .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
@@ -185,6 +206,8 @@ header ul li {
     margin: 10px auto;
     max-width: 150px;
 }
+
+/*Cost Management*/
 
 .benefit-cost {
     margin-bottom: 32px;
