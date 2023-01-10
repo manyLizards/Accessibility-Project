@@ -15,7 +15,6 @@ No installation required, simply open the link below.
 ## Usage
 To test the accessibility of this iste, turn on your screen reader and check it out!
 
-
     ![Project Page Screenshot](https://github.com/manyLizards/Accessibility-Project/blob/main/assets/images/Challenge-1-Screenshot.png "Challenge 1 Screenshot")
 See the deployed page here. https://manylizards.github.io/Accessibility-Project/
 
