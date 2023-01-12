@@ -13,11 +13,10 @@ The starter code is a main landing page for a company called Horiseon. It provid
 No installation required, simply open the link below.
 
 ## Usage
-To test the accessibility of this iste, turn on your screen reader and check it out!
+To test the accessibility of this site, turn on your screen reader and check it out! (Windows: windows key + ctl + enter to start and stop) (Mac: Apple menu > System Settings > Accessibility > Voiceover)
 
-    ![Project Page Screenshot](https://github.com/manyLizards/Accessibility-Project/blob/main/assets/images/Challenge-1-Screenshot.png "Challenge 1 Screenshot")
+![Project Page Screenshot](https://github.com/manyLizards/Accessibility-Project/blob/main/assets/images/Challenge-1-Screenshot.png "Challenge 1 Screenshot")
 See the deployed page here. https://manylizards.github.io/Accessibility-Project/
-
 
 ## Credits
 
